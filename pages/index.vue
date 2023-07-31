@@ -1,9 +1,4 @@
 <template>
-  <Tutorial/>
+  <div v-html="$settings"></div>
 </template>
 
-<script>
-export default {
-  name: 'IndexPage'
-}
-</script>

@@ -1,0 +1,7 @@
+{
+    "env": "development",
+    "token": {
+        "clientId": "6475b350e7527122c793bc99-fixpro.storeino.world",
+        "clientSecret": "nERdFA3IyQ4uRfGgIhIkEOEI"
+    }
+}
