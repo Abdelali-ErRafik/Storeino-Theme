@@ -1,11 +1,30 @@
 import vuex from 'vuex'
-import state from'../template-core/store/state'
 
 const createStore = () => {
     return new vuex.Store({
         state: () =>{
             return{
-                ...state
+                cart: [],
+                wishlist: [],
+                isIos: false,
+                loading:true,
+                isPreview:false,
+                seo: { 
+                    title: '',
+                    description: '', 
+                    keywords: [], 
+                    url: '', 
+                    image: '', 
+                    metaTags: [], 
+                    scripts: [] 
+                },
+                settings: null,
+                domain: 'www.storeino.com',
+                apps: [],
+                token: null,
+                baseURL: 'https://api-stores.storeino.world/api',
+                currency: { symbol: "DH", code: undefined },
+                language: { name: "Unknown", code: undefined }
             }
         },
         actions: ()=>{},

@@ -1,4 +1,7 @@
 <template>
-  <div v-html="$settings"></div>
+  <div>
+    <sections-settings></sections-settings>
+    <sections-fetch></sections-fetch>
+    <sections-application></sections-application>
+  </div>
 </template>
-
