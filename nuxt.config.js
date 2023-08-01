@@ -1,5 +1,4 @@
-import { plugins } from "storeino-template-core";
-
+import { plugins } from "@storeino/template-core";
 export default {
   head: {
     title: 'npm-core',
@@ -19,11 +18,6 @@ export default {
   css: [],
   plugins:[
     ...plugins,
-    // '~/plugins/tools.js',
-    // '~/plugins/http.js',
-    // '~/plugins/storeino.js',
-    // '~/plugins/init.js',
-    // '~/plugins/events.js',
   ],
   serverMiddleware: ['~/server/index'],
   components: true,
