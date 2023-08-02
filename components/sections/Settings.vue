@@ -3,7 +3,7 @@
   <div>
     <h2>Settings</h2>
     <div>
-      {{ $settings.text }}
+      {{ $settings }}
     </div>
   </div>
 </template>
@@ -20,5 +20,4 @@ export default {
     console.log(this.$settings)
   }
 }
-
 </script>
