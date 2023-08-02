@@ -1,6 +1,7 @@
 <template>
   <div>
-    <sections-get-started></sections-get-started>
+    <!-- you can delete this Nuxt Welcome component -->
+    <sections-nuxt-welcome ></sections-nuxt-welcome>
     <!-- Components Examples -->
     <!-- <sections-settings></sections-settings> -->
     <!-- <sections-fetch></sections-fetch> -->
