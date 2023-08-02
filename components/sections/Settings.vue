@@ -3,7 +3,7 @@
   <div>
     <h2>Settings</h2>
     <div>
-      {{ $settings }}
+      {{ $settings.text }}
     </div>
   </div>
 </template>
