@@ -1,7 +1,7 @@
 import { plugins } from "@storeino/template-core";
 export default {
   head: {
-    title: 'storeino-theme',
+    title: 'new-theme',
     htmlAttrs: {
       lang: 'en'
     },

@@ -1,4 +1,4 @@
-# storeino-theme
+# new-theme
 
 ## Build Setup
 
