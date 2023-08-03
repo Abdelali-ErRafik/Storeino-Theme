@@ -16,6 +16,7 @@ export default {
     ]
   },
   css: [
+    '~/assets/css/icons.css',
     '~/assets/css/main.css'
   ],
   plugins:[
