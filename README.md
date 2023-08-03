@@ -1,4 +1,4 @@
-# npm-core
+# storeino-theme
 
 ## Build Setup
 
